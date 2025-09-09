@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin:0; padding:15px; width:300px; }
+.container { display:flex; flex-direction:column; gap:10px; }
+h1, h2 { font-size:18px; margin:0 0 10px; }
+label { display:flex; justify-content:space-between; margin:5px 0; }
+input { width:80px; padding:3px; }
+button { padding:6px 10px; margin-top:10px; }
