@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  e2e:
+    build: .
+    volumes:
+      - ./:/app
+    # set DISPLAY if necessary, but Playwright image supports headless with deps
+    environment:
+      - PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=0
+    # tty so interactive browsers can run
+    tty: true
